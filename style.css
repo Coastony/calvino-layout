@@ -1,0 +1,439 @@
+* {
+    box-sizing: border-box;
+}
+
+.fundo {
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+/* MY NAME IS CALVIN */
+
+body {
+    background: #ff9063;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+td {
+    padding: 20px;
+}
+
+table {
+    float: right;
+    margin-top: -60px;
+    margin-right: 500px;
+}
+
+#calvin {
+    margin-left: -720px;
+}
+
+#title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin-right: 750px;
+    margin-left: -30px;
+}
+
+.digital {
+    margin-right: 250px;
+    margin-top: -290px;
+    float: right;
+}
+
+span {
+    color: #1fc91c;
+}
+
+#calvino {
+    color: #ffffff;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head {
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.nav {
+    color: #ffffff;
+}
+
+div.informations {
+    margin-top: 100px;
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.email {
+    float: right;
+    margin-top: -65px;
+    margin-right: 60px;
+
+}
+
+.details h3,
+h2 {
+    font-size: 20px;
+}
+
+button {
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    border: solid #ffffff 1px;
+    background-color: #ff9063;
+}
+
+header {
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+    background-image: url("https://cdn.pixabay.com/photo/2021/09/15/12/34/woman-6626742_960_720.jpg");
+    background-size: cover;
+    display: flex;
+    margin-left: 10px;
+}
+
+article {
+    width: 292px;
+    height: 280px;
+    border-radius: 500px;
+    border: solid #ffffff;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+button.talk {
+    float: right;
+    margin-top: -45px;
+    margin-right: 90px;
+    color: #ffffff;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    background-color: #ff9063;
+}
+
+h1.text {
+    color: #ffffff;
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #36342f;
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    margin-top: -60px;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    border-bottom: #ffffff solid 2px;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#lista {
+    list-style: none;
+    margin-left: 460px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+/* MY EXPERTIES */
+
+.my {
+    margin-top: 70px;
+}
+
+#expert {
+    background: lightgray;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 290px 290px;
+    gap: 1px;
+    margin-left: 90px;
+}
+
+.strat {
+    background: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.strat:hover {
+    box-shadow: 1px 1px 10px 1px lightgray;
+}
+
+.expertie-svg {
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.expert-p {
+    color: #ff9063;
+}
+
+div.experties {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-top: 120px;
+    background-color: #fff;
+}
+
+/* WORKS */
+
+section.images-works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img.image {
+    width: 550px;
+    height: 350px;
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+}
+
+div.works {
+    margin-top: 90px;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+#more {
+    margin-top: 60px;
+    margin-left: 610px;
+    width: 150px;
+    color: #ff9063;
+    height: 50px;
+    border: solid #ff9063 1px;
+    background: #ffffff;
+}
+
+/* ABOUT */
+
+.square {
+    background: #f2f2f2;
+    margin-top: 90px;
+    width: 1100px;
+    height: 670px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+#about {
+    margin-top: -600px;
+    margin-left: 70px;
+}
+
+.about-me {
+    margin-left: -5px;
+}
+
+.about-h3 {
+    color: #ff9063;
+}
+
+.user {
+    float: right;
+    margin-top: -180px;
+    margin-right: 150px;
+}
+
+.user-about {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+/* TESTIMONIAL */
+
+#testimonial {
+    margin-top: 240px;
+    text-align: center;
+}
+
+.square-testimonial {
+    position: relative;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 200px;
+    background: #faf9f7;
+    width: 900px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.h6-testimonial {
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.jacson {
+    color: #ff9063;
+}
+
+/* LATEST NEWS */
+
+#latest {
+    padding: 10px;
+    background: #ffffff;
+    margin-top: 100px;
+}
+
+.latest-images section {
+    margin-right: 25px;
+}
+
+.latest-images {
+    display: flex;
+    justify-content: center;
+}
+
+img.news {
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.text-latest {
+    margin-top: -90px;
+    color: #ffffff;
+    padding-left: 10px;
+    width: 350px;
+    font-size: 12px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.tips {
+    color: #ffffff;
+    width: 55px;
+    height: 30px;
+    border: #ff9063 solid 1px;
+    margin-right: 10px;
+}
+
+.text-latest p {
+    font-size: 20px;
+}
+
+.text-latest h3 {
+    font-size: 17px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 30px;
+    color: #ffffff;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+}
+
+.rodape {
+    width: 100%;
+    height: 300px;
+}
+
+.calvino-footer {
+    color: #ff9063;
+}
+
+.h3-footer {
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+section.button-footer {
+    margin-left: 850px;
+    margin-top: -60px;
+}
+
+.download {
+    color: #ffffff;
+    border-radius: #ffffff;
+    background-color: #000000;
+    margin-right: 20px;
+}
+
+.talk-rodape {
+    border: #ff9063;
+}
+
+.copyright {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.menu-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    margin-top: -60px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-2 a:hover {
+    text-decoration: none;
+    border-bottom: #ffffff solid 2px;
+    color: #ffffff;
+}
+
+#lista-2 {
+    list-style: none;
+    margin-left: 800px;
+    margin-top: -42px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+}
